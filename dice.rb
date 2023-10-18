@@ -64,6 +64,6 @@ get("/dice/1/20") do
  
  end
 
- #get("/menu") do
- # <a href="/dice/1/20">"Roll two 6-sided dice"</a>
- #end
+ get("/menu") do
+  erb(:menu)
+ end
